@@ -32,7 +32,7 @@ public class Tesis extends Escrito
 		return super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.idea + "\n" + this.argumentos + "\n" + this.conclusion + "\n" + this.referencia;
 	}
 
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return palabrasPagina*super.getPaginas()*5;
 	}
 
@@ -67,5 +67,7 @@ public class Tesis extends Escrito
 	public void setIdea(String idea) {
 		this.idea = idea;
 	}
+	
+	
 	
 }

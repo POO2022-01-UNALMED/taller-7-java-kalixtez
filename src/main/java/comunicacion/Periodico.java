@@ -9,7 +9,6 @@ public class Periodico extends Escrito{
 		this.primicia = primicia;
 	}
 
-
 	private String fecha;
 	private String primicia;
 	private String interpretacion;
@@ -50,7 +49,7 @@ public class Periodico extends Escrito{
 	}
 
 
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return palabrasPagina*super.getPaginas()*10;
 	}
 	
