@@ -29,7 +29,7 @@ public class Tesis extends Escrito
 	
 	public String toString()
 	{
-		return super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.idea + "\n" + this.argumentos + "\n" + this.conclusion + "\n" + this.referencia;
+		return super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.idea + "\n" + this.argumentos.length + "\n" + this.conclusion + "\n" + this.referencia;
 	}
 
 	public int palabrasTotales(int palabrasPagina) {
