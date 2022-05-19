@@ -36,11 +36,11 @@ public class Tesis extends Escrito
 		return palabrasPagina*super.getPaginas()*5;
 	}
 
-	public String getReferencia() {
+	public String getReferencias() {
 		return referencia;
 	}
 
-	public void setReferencia(String referencia) {
+	public void setReferencias(String referencia) {
 		this.referencia = referencia;
 	}
 
