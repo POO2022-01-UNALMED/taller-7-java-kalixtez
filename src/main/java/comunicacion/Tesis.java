@@ -40,7 +40,7 @@ public class Tesis extends Escrito
 		return referencia;
 	}
 
-	public void setReferencias(String referencia) {
+	public void setReferencia(String referencia) {
 		this.referencia = referencia;
 	}
 
