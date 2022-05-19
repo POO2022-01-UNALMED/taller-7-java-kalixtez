@@ -8,6 +8,7 @@ public class Tesis extends Escrito
 		this.setArgumentos(argumentos);
 		this.setConclusion(conclusion);
 		this.setReferencia(referencia);
+		this.interpretacion = interpretacion;
 	}
 
 
